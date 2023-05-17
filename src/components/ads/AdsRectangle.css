@@ -1,0 +1,21 @@
+.ads-rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1100px;
+  height: 500px;
+  background-color: #879697;
+  border-radius: 20px;
+  /* Add other styles as needed */
+}
+
+.advertisement {
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  /* Add other styles as needed */
+}
