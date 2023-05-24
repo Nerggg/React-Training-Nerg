@@ -1,9 +1,8 @@
 import React from 'react';
-import './Recommended.css'; // import the CSS file that styles the rectangle
 
 const Recom = ({ children }) => {
   return (
-    <div className="recom-text">
+    <div className="flex relative top-[130px] left-[120px] font-bold text-black text-4xl">
       <span>Recommended for YOU</span>
       {children}
     </div>

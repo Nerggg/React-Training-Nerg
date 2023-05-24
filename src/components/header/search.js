@@ -1,14 +1,12 @@
 import React from 'react';
-import './SearchBar.css'; // import the CSS file that styles the search bar
 
 const SearchBar = () => {
   return (
-    <div className="search-bar-container">
-      <input className="search-bar" type="text" />
-      <div className="search-rectangle"></div>
+    <div className="relative flex justify-center items-center h-full">
+      <input type="text" class="w-[800px] h-[40px] p-[10px] rounded-lg bg-white"/>
+      <div className="absolute right-0 w-[50px] h-[40px] bg-[#c9d9d8] rounded-r-lg"></div>
     </div>
   );
 };
 
 export default SearchBar;
-

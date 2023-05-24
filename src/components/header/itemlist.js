@@ -8,7 +8,7 @@ const ItemList = () => {
   };
 
   return (
-    <div className="item-list-container">
+    <div className="absolute w-full h-full flex justify-center items-center">
       <ul className="item-list">
         <li onClick={() => handleClick('ITEM A')}>ITEM A</li>
         <li onClick={() => handleClick('ITEM B')}>ITEM B</li>
