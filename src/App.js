@@ -6,6 +6,7 @@ import CatRectangle from './components/categories/cat-rect';
 import Recom from './components/recommend/recom';
 import FooterRectangle from './components/footer/footer-rect';
 import ContactUs from './components/footer/contact-us';
+import Popup from './components/popup/popup';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FooterRectangle>
         <ContactUs />
       </FooterRectangle>
+      <Popup />
     </div>
   );
 }
