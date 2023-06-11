@@ -4,7 +4,7 @@ import Ngurut2 from '../../Assets/ngurut2.svg';
 
 function Filters() {
   return (
-    <div className="pt-1.5">
+    <div className="relative ml-[5%] pt-1">
       <img src={FilterIcon} alt="Filter Icon" className="float-left pr-1.5" />
       <img src={Ngurut1} alt="Ascending or Descending" className="float-left pr-1.5" />
       <img src={Ngurut2} alt="Ascending or Descending" className="float-left" />
