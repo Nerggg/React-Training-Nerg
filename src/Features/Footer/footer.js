@@ -4,7 +4,7 @@ import WaIcon from '../../Assets/wa-icon.svg';
 
 function Footer() {
   return (
-    <div className="absolute bottom-0 w-full h-24 bg-white border-bordergray border">
+    <div className="relative w-full h-24 bg-white border-bordergray border">
     </div>
   );
 }

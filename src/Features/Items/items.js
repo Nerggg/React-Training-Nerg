@@ -1,14 +1,20 @@
-import RecomText from './recom-text';
-import Filters from './filters';
-
-function Items() {
+function ItemList() {
   return (
-    <div className="flex-wrap">
-      <RecomText />
-      <Filters />
-      <div className="w-28 h-40 bg-itemgray" />
+    <div className="relative flex flex-wrap justify-center w-full">
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
+      <div className="relative w-28 h-40 bg-itemgray m-2 rounded-[7px]" />
     </div>
   );
 }
 
-export default Items;
+export default ItemList;
