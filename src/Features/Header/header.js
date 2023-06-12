@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="flex relative w-full h-10 items-center">
       <div className="justify-start w-full ml-[3%]">
-        <img src={LoakpostLogo} alt="Loakpost Logo" />
+        <img src={LoakpostLogo} alt="Loakpost Logo" className="w-10 h-5" />
       </div>
       <div className="justify-end w-full flex mr-[3%]">
         <img src={SearchIcon} alt="Search Icon" className="float-left" />
