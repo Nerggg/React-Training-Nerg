@@ -1,9 +1,9 @@
-import Header from '../Features/Header/header';
-import Box from "./Box.js";
-import "./Box.css";
-import FAQ from "./FAQ.js";
+import Header from './Features/Header/header';
+import Box from "./Features/PageFaq/Box.js";
+import "./Features/PageFaq/Box.css";
+import FAQ from "./Features/PageFaq/FAQ.js";
 import React from 'react';
-import Footer from '../Features/Footer/footer';
+import Footer from './Features/Footer/footer';
 
 function FaqPage() {
   return (
