@@ -1,4 +1,3 @@
-
 import Header from '../Features/Header/header';
 import Box from "./Box.js";
 import "./Box.css";
