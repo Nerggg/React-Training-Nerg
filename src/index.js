@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import FaqPage from './faq-page'
 import HomePage from './home-page'
+import LandingPage from './landing-page'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
