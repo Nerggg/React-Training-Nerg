@@ -1,4 +1,4 @@
-import BubbleIcon from '../../Assets/cats-bubble.svg';
+import BubbleIcon from '../../../Assets/cats-bubble.svg';
 
 function CatsBubble() {
   return (

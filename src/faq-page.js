@@ -1,7 +1,7 @@
 import Header from './Features/Header/header';
-import Box from "./Features/PageFaq/Box.js";
-import "./Features/PageFaq/Box.css";
-import FAQ from "./Features/PageFaq/FAQ.js";
+import Box from "./Features/FaqPage/Box.js";
+import "./Features/FaqPage/Box.css";
+import FAQ from "./Features/FaqPage/FAQ.js";
 import React from 'react';
 import Footer from './Features/Footer/footer';
 

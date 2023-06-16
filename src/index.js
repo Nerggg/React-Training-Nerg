@@ -5,12 +5,13 @@ import App from './App';
 import FaqPage from './faq-page'
 import HomePage from './home-page'
 import LandingPage from './landing-page'
+import AboutUsPage from './aboutus-page'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AboutUsPage />
   </React.StrictMode>
 );
 

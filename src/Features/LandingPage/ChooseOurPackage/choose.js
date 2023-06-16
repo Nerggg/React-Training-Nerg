@@ -1,7 +1,7 @@
-import Title from '../../Assets/choose-packages.svg';
-import Desc from '../../Assets/choose-desc.svg';
-import SocMed from '../../Assets/social-media.svg';
-import Website from '../../Assets/website.svg';
+import Title from '../../../Assets/choose-packages.svg';
+import Desc from '../../../Assets/choose-desc.svg';
+import SocMed from '../../../Assets/social-media.svg';
+import Website from '../../../Assets/website.svg';
 
 function Choose() {
   return (

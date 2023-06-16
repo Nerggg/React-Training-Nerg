@@ -1,6 +1,6 @@
-import FilterIcon from '../../Assets/filter-icon.svg';
-import Ngurut1 from '../../Assets/ngurut1.svg';
-import Ngurut2 from '../../Assets/ngurut2.svg';
+import FilterIcon from '../../../Assets/filter-icon.svg';
+import Ngurut1 from '../../../Assets/ngurut1.svg';
+import Ngurut2 from '../../../Assets/ngurut2.svg';
 
 function Filters() {
   return (

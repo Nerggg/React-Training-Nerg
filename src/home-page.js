@@ -1,8 +1,8 @@
 import Header from './Features/Header/header';
-import Ad from './Features/Advertisement/ad';
-import Sorting from './Features/Items/sorting';
-import ItemList from './Features/Items/items';
-import CatsBubble from './Features/Categories/bubble';
+import Ad from './Features/HomePage/Advertisement/ad';
+import Sorting from './Features/HomePage/Items/sorting';
+import ItemList from './Features/HomePage/Items/items';
+import CatsBubble from './Features/HomePage/Categories/bubble';
 import Footer from './Features/Footer/footer';
 
 function HomePage() {

@@ -1,6 +1,6 @@
-import Welcome from '../../Assets/landingpage-welcome.svg';
-import Started from '../../Assets/getstarted-button.svg';
-import Learn from '../../Assets/learnmore.svg';
+import Welcome from '../../../Assets/landingpage-welcome.svg';
+import Started from '../../../Assets/getstarted-button.svg';
+import Learn from '../../../Assets/learnmore.svg';
 
 function WelcomingPage() {
   return (

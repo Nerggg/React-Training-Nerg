@@ -1,5 +1,5 @@
-import Title from '../../Assets/getstartednow.svg';
-import Form from '../../Assets/fillinform.svg';
+import Title from '../../../Assets/getstartednow-black.svg';
+import Form from '../../../Assets/fillinform.svg';
 
 function GetStarted() {
   return (

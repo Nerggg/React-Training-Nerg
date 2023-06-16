@@ -1,8 +1,8 @@
-import How from '../../Assets/howitworks.svg';
-import Step1 from '../../Assets/step-1.svg';
-import Step2 from '../../Assets/step-2.svg';
-import Step3 from '../../Assets/step-3.svg';
-import Step4 from '../../Assets/step-4.svg';
+import How from '../../../Assets/howitworks.svg';
+import Step1 from '../../../Assets/step-1.svg';
+import Step2 from '../../../Assets/step-2.svg';
+import Step3 from '../../../Assets/step-3.svg';
+import Step4 from '../../../Assets/step-4.svg';
 
 function HowItWorks() {
   return (

@@ -1,5 +1,5 @@
-import WhyLoakPost from '../../Assets/why-loakpost.svg';
-import Reason from '../../Assets/3-reason.svg';
+import WhyLoakPost from '../../../Assets/why-loakpost-white.svg';
+import Reason from '../../../Assets/3-reason.svg';
 
 function Why() {
   return (

@@ -1,12 +1,12 @@
 import Header from './Features/Header/header';
-import WelcomingPage from './Features/Welcoming/welcoming';
-import Why from './Features/WhyLoakPost/whyloakpost';
-import HowItWorks from './Features/HowItWorks/howitworks';
-import Choose from './Features/ChooseOurPackage/choose';
-import GetStarted from './Features/GetStarted/getstarted';
+import WelcomingPage from './Features/LandingPage/Welcoming/welcoming';
+import Why from './Features/LandingPage/WhyLoakPost/whyloakpost';
+import HowItWorks from './Features/LandingPage/HowItWorks/howitworks';
+import Choose from './Features/LandingPage/ChooseOurPackage/choose';
+import GetStarted from './Features/LandingPage/GetStarted/getstarted';
 import Footer from './Features/Footer/footer';
 
-function App() {
+function LandingPage() {
   return (
     <div>
       <Header />
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default LandingPage;
