@@ -1,16 +1,18 @@
-import Header from './Features/Header/header';
-import GetStarted from './Features/GetStarted/getstarted';
-import Why from './Features/WhyLoakPost/whyloakpost';
-import Footer from './Features/Footer/footer';
+import Header from "./Features/Header/header";
+import Ad from "./Features/Advertisement/ad";
+import Sorting from "./Features/Items/sorting";
+import ItemList from "./Features/Items/items";
+import CatsBubble from "./Features/Categories/bubble";
+import Footer from "./Features/Footer/footer";
 
 function App() {
   return (
     <div>
       <Header />
-      <div className="w-full h-screen">
-        <GetStarted />
-        <Why />
-      </div>
+      <Ad />
+      <Sorting />
+      <ItemList />
+      <CatsBubble />
       <Footer />
     </div>
   );
