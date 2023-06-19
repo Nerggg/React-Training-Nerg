@@ -8,6 +8,7 @@ module.exports = {
         myblue: "#426EEB",
         bordergray: "#C1C3D9",
         itemgray: "#D9D9D9",
+        fontgray: "#7D7E8C",
       },
       screens: {
         'sm': '640px',

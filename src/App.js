@@ -5,7 +5,7 @@ import ItemList from "./Features/Items/items";
 import CatsBubble from "./Features/Categories/bubble";
 import Footer from "./Features/Footer/footer";
 
-function App() {
+function AboutUsPage() {
   return (
     <div>
       <Header />
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default AboutUsPage;
