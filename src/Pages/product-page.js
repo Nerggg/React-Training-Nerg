@@ -5,9 +5,9 @@ import Footer from "../Features/Footer/footer";
 import Desc from "../Features/ProductPage/desc";
 import React from "react";
 
-function ProductPage() {
+function productPage() {
   return (
-    <div>
+    <div className="relative">
       <div className="header">
         <Header />
       </div>
@@ -31,4 +31,4 @@ function ProductPage() {
   );
 }
 
-export default ProductPage;
+export default productPage;

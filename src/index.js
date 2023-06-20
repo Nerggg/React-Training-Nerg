@@ -10,7 +10,7 @@ import ProductPage from './Pages/product-page'
 import ErrorPage from './Pages/error-page'
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -20,7 +20,7 @@ root.render(
         <Route path="/faq" element={<FaqPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter>    
   </React.StrictMode>
 );
 
