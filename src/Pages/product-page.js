@@ -1,12 +1,11 @@
-import Header from "./Features/Header/header";
-import Picture from "./Features/ProductPage/picture";
-import Product from "./Features/ProductPage/product";
-import Footer from "./Features/Footer/footer";
-import Desc from "./Features/ProductPage/desc";
-// import "./App.css";
+import Header from "../Features/Header/header";
+import Picture from "../Features/ProductPage/picture";
+import Product from "../Features/ProductPage/product";
+import Footer from "../Features/Footer/footer";
+import Desc from "../Features/ProductPage/desc";
 import React from "react";
 
-function App() {
+function ProductPage() {
   return (
     <div>
       <div className="header">
@@ -32,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default ProductPage;

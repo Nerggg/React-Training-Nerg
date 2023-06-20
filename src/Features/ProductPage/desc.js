@@ -1,6 +1,6 @@
 function desc() {
   return (
-    <div className="relative w-390 h-12 m-5 text-clip left-3font-space">
+    <div className="relative w-390 h-12 m-5 left-3font-space">
       <h1 className="font-bold">Description</h1>
       <p className="font-light">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
