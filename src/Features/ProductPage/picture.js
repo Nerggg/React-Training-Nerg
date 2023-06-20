@@ -38,7 +38,7 @@ function Picture() {
   };
 
   return (
-    <div className="relative w-full h-[258px] m-auto p-auto group">
+    <div className="relative w-full h-[390px] m-auto p-auto group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="w-full h-full  bg-center bg-cover bg-[#D9D9D9] duration-150"

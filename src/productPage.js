@@ -1,14 +1,14 @@
 import Header from "./Features/Header/header";
 import Picture from "./Features/ProductPage/picture";
 import Product from "./Features/ProductPage/product";
-import Footer from "./Features/Footer/footer";
+import Footer from "./Features/ProductPage/footer.js";
 import Desc from "./Features/ProductPage/desc";
 // import "./App.css";
 import React from "react";
 
-function App() {
+function productPage() {
   return (
-    <div>
+    <div className="relative">
       <div className="header">
         <Header />
       </div>
@@ -32,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default productPage;
