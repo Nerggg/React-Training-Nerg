@@ -7,11 +7,12 @@ import SellIcon from '../../Assets/sell-icon.svg';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const navigate = useNavigate();
  
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  const navigate = useNavigate();
 
   const handleHomeClick = () => {
     navigate('/');
