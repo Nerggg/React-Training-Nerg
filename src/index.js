@@ -19,6 +19,7 @@ root.render(
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/sell" element={<LandingPage />} />
+        <Route path="/product" element={<ProductPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>    
