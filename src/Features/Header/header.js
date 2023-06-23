@@ -26,6 +26,10 @@ function Header() {
     navigate('/faq');
   };
 
+  const handleSellClick = () => {
+    navigate('/sell');
+  };
+
   return (
     <div className="flex relative w-full h-10 items-center">
       <div className="justify-start w-full ml-[3%]">
@@ -45,7 +49,7 @@ function Header() {
             <div className="text-fontgray text-[9px] mr-[12px] my-[5px] cursor-pointer" onClick={handleFaqClick}>FAQ</div>
           </div>
         )}
-        <img src={SellIcon} alt="Sell Icon" className="float-left pl-1" />
+        <img src={SellIcon} alt="Sell Icon" className="float-left pl-1 cursor-pointer" onClick={handleSellClick} />
       </div>
     </div>
   );
