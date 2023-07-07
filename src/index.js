@@ -17,7 +17,7 @@ root.render(
    <BrowserRouter>
       <Routes>
         
-        <Route path="/" element={<HomePage /> } />{/* FormPage */} 
+        <Route path="/" element={<FormPage /> } />{/* HomePage */} 
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/sell" element={<LandingPage />} />

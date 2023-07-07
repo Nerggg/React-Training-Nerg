@@ -15,35 +15,39 @@
     font-weight: 800;
   }
 .Item {
-    display: inline-block;
-    margin: 0 10% 0 10%;
+    display: flex;
     font-size: 70%;
     color: rgb(0, 0, 0);
     font-weight: 800;
 }
-
 .Item2 {
-    display: inline-block;
-    margin: 0 10% 0 10%;
+    display: flex;
     font-size: 70%;
     color: rgb(0, 0, 0);
     font-weight: 800;
 }
 
 .ItemBox {
-    display: inline-block;
-    margin: 0 5% 0 10%;
-    max-width: 35%;
+    display: flex;
+    max-width: 100%;
     font-size: 70%;
     color: rgb(0, 0, 0);
     font-weight: 800;
 }
 
 .ItemBox2 {
-    display: inline-block;
-    margin: 0 10% 0 3%;
-    max-width: 35%;
+    display: flex;
     font-size: 70%;
+    max-width: 100%;
+    margin-inline-end: 0%;
     color: rgb(0, 0, 0);
     font-weight: 800;
+}
+
+.container {
+    display: block;
+    margin-inline: 10%;
+}
+.container2 {
+    display: inline-flex;
 }
