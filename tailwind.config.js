@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         myblue: "#426EEB",
-        pressedblue: "#426EEB",
+        pressedbluefont: "#0C1AF5",
         bordergray: "#C1C3D9",
         itemgray: "#D9D9D9",
         fontgray: "#7D7E8C",
