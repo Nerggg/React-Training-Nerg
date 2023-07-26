@@ -8,14 +8,16 @@ import LandingPage from './Pages/landing-page'
 import AboutUsPage from './Pages/aboutus-page'
 import ProductPage from './Pages/product-page'
 import ErrorPage from './Pages/error-page'
+import FormPage from './Pages/Form-page'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+   <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        
+        <Route path="/" element={<FormPage /> } />{/* HomePage */} 
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/sell" element={<LandingPage />} />
@@ -23,7 +25,7 @@ root.render(
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>    
-  </React.StrictMode>
+</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
