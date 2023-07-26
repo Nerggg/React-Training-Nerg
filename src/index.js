@@ -16,12 +16,12 @@ root.render(
   <React.StrictMode>
    <BrowserRouter>
       <Routes>
-        
-        <Route path="/" element={<FormPage /> } />{/* HomePage */} 
+        <Route path="/" element={<HomePage /> } /> 
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/sell" element={<LandingPage />} />
         <Route path="/product" element={<ProductPage />} />
+        <Route path="/form" element={<FormPage /> } />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>    
