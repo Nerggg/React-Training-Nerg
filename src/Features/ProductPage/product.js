@@ -15,6 +15,8 @@ function Product() {
     buttonIg.classList.toggle("hidden");
   };
 
+  const newLocal =
+    "flex justify-center p-0 m-0 absolute top-[50%] w-[50px] h-[50px] -translate-x-0 translate-y-[-50%] right-6 shadow-lg rounded-xl bg-[#FFFFF] group cursor-pointer";
   return (
     <div className="relative w-full h-[100px] border-b-[1px] border-gray-300">
       <div className="text-container">
@@ -26,7 +28,7 @@ function Product() {
             Rp 25.000
           </h3>
         </div>
-        <div className="flex justify-center p-0 m-0 absolute top-[50%] w-[50px] h-[50px] -translate-x-0 translate-y-[-50%] right-6 shadow-lg rounded-xl bg-[#FFFFF] group cursor-pointer">
+        <div className={newLocal}>
           <button
             id="button"
             onClick={handleToggle}
