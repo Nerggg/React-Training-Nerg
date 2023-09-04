@@ -18,8 +18,12 @@ function Footer() {
           <div className="font-bold text-[12px] font-space">Contact Us Through</div>
         </div>
         <div className="justify-end w-full flex mr-[3%] items-center">
-          <img src={IgIcon} alt="Instagram Icon" className="float-left" />
-          <img src={WaIcon} alt="Whatsapp Icon" className="float-left pl-2" />
+          <a href="https://www.instagram.com/loakpost/" target="_blank" rel="noopener noreferrer">
+            <img src={IgIcon} alt="Instagram Icon" className="float-left cursor-pointer" />
+          </a>
+          <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+            <img src={WaIcon} alt="Whatsapp Icon" className="float-left pl-2 cursor-pointer" />
+          </a>
         </div>
       </div>
     </div>
